@@ -17,4 +17,4 @@ if (answer.GuessNumber === randomNumber) {
   console.log("sorry! You guessed wronge Number");
 }
 
-console.log(`Random Number is  ${randomNumber}`);
+console.log(`Random Number is , ${randomNumber}`);
