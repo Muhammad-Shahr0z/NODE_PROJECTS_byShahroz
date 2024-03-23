@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 
-const Number: Number = Math.floor(Math.random() * 6 + 1);
+const Number:number = Math.floor(Math.random() * 6 + 1);
 
 const answer = await inquirer.prompt([
   {
