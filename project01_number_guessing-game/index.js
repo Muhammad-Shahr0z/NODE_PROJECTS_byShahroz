@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
-const Number = Math.floor(Math.random() * 6 + 1);
+const randomNumber = Math.floor(Math.random() * 6 + 1);
 const answer = await inquirer.prompt([
     {
         type: "number",
@@ -8,9 +8,10 @@ const answer = await inquirer.prompt([
         message: "Guess one Number between 1-6 ",
     },
 ]);
-if (answer.GuessNumber === Number) {
+if (answer.GuessNumber === randomNumber) {
     console.log("Congratulations You guessed Right Number");
 }
 else {
     console.log("sorry! You guessed wronge Number");
 }
+console.log(`Random Number is  ${randomNumber}`);
