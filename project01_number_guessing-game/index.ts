@@ -1,4 +1,5 @@
 #! /usr/bin/env node
+
 import inquirer from "inquirer";
 
 const randomNumber: number = Math.floor(Math.random() * 6 + 1);

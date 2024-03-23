@@ -1,6 +1,6 @@
 {
   "name": "number_guessing_game-by_shahroz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NUMBER GUESSING GAME RUN IN CLI",
   "main": "index.js",
   "type": "module",
