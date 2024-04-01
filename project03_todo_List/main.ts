@@ -9,8 +9,6 @@ import inquirer, { Answers } from "inquirer";
 let todolist: string[] = [];
 let loop: boolean = true;
 
-let operatios = await inquirer.prompt([]);
-
 console.log(chalk.green.bold.italic("\nWelCome To Our Todo-List App\n"));
 
 while (loop) {
