@@ -44,7 +44,6 @@ if (loop === false) {
   ]);
 
   if (answers2.view === "Delete Your To Do List") {
-    console.log("Delete Your To Do List ");
 
     let removeTodos = await inquirer.prompt([
       {
@@ -56,7 +55,7 @@ if (loop === false) {
     ]);
 
     if (removeTodos.remove === "Exit") {
-      console.log(chalk.bgBlue(`Than You For Using Our App`));
+      console.log(chalk.bgBlue(`Thank You For Using Our App`));
     }
 
     if (removeTodos.remove === "Remove") {

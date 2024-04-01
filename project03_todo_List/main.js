@@ -34,17 +34,16 @@ if (loop === false) {
         },
     ]);
     if (answers2.view === "Delete Your To Do List") {
-        console.log("Delete Your Last To Do ");
         let removeTodos = await inquirer.prompt([
             {
-                message: "Select Your To Do List",
+                message: "Remove Your To Do List",
                 type: "list",
                 name: "remove",
                 choices: ["Remove", "Exit"],
             },
         ]);
         if (removeTodos.remove === "Exit") {
-            console.log(chalk.bgBlue(`Than You For Using Our App`));
+            console.log(chalk.bgBlue(`Thank You For Using Our App`));
         }
         if (removeTodos.remove === "Remove") {
             let confirmRemove = await inquirer.prompt([
