@@ -5,7 +5,6 @@ import inquirer from "inquirer";
 //CREAT ARRAY FOR TO DO LIST & variable FOR TRUE AND FALSE
 let todolist = [];
 let loop = true;
-let operatios = await inquirer.prompt([]);
 console.log(chalk.green.bold.italic("\nWelCome To Our Todo-List App\n"));
 while (loop) {
     console.log(chalk.green.bold("\nEnter Your List Item"));

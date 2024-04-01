@@ -44,11 +44,11 @@ if (loop === false) {
   ]);
 
   if (answers2.view === "Delete Your To Do List") {
-    console.log("Delete Your Last To Do ");
+    console.log("Delete Your To Do List ");
 
     let removeTodos = await inquirer.prompt([
       {
-        message: "Select Your To Do List",
+        message: "Remove Your To Do List",
         type: "list",
         name: "remove",
         choices: ["Remove", "Exit"],
