@@ -10,16 +10,20 @@ while (loop) {
     console.log(chalk.green.bold("\nEnter Your List Item"));
     const answers = await inquirer.prompt([
         { type: "input", message: "Enter", name: "todolist" },
-        {
-            type: "list",
-            message: "\nDo You Want To Add Another To Do List\n",
-            name: "loop",
-            choices: ["Yes", "No"],
-        },
     ]);
+    if (answers.todolist === "") {
+        console.log(chalk.red("Please Enter Your To Do List Item First"));
+        continue;
+    }
+    const answers2 = await inquirer.prompt({
+        type: "list",
+        message: "\nDo You Want To Add Another To Do List\n",
+        name: "loop",
+        choices: ["Yes", "No"],
+    });
     todolist.push(answers.todolist);
     console.log(todolist);
-    if (answers.loop === "No") {
+    if (answers2.loop === "No") {
         loop = false;
     }
 }
