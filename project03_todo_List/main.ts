@@ -4,7 +4,7 @@
 import chalk from "chalk";
 import inquirer, { Answers } from "inquirer";
 
-//CREAT ARRAY FOR TO DO LIST & variable FOR TRUE AND FALSE
+//CREAT ARRAY FOR TO DO LIST & variable FOR TRUE AND false
 
 let todolist: string[] = [];
 let loop: boolean = true;
