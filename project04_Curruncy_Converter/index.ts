@@ -69,5 +69,3 @@ if (curruncyConverter.convertAmount > 0) {
 } else {
   console.log(chalk.red("Enter Valid Amount"));
 }
-
-
