@@ -1,6 +1,5 @@
 #! /usr/bin/env node 
 
-
 //import chalk and inquirer
 
 import inquirer from "inquirer"

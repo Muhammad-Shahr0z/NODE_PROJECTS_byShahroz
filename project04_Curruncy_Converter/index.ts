@@ -8,7 +8,7 @@ const curruncy: any = {
   USD: 1, //BASE CURRUNCY
   EUR: 0.93,
   INR: 83.37,
-  PKR: 281.08,
+  PKR: 277.69,
 };
 console.log(curruncy);
 

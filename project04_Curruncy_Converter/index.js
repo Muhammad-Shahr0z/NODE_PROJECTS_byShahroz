@@ -6,7 +6,7 @@ const curruncy = {
     USD: 1,
     EUR: 0.93,
     INR: 83.37,
-    PKR: 281.08,
+    PKR: 277.69,
 };
 console.log(curruncy);
 let curruncyConverter = await inquirer.prompt([
