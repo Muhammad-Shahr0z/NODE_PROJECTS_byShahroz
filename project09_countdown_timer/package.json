@@ -1,0 +1,19 @@
+{
+  "name": "project09_countdown_timer_by_shahroz",
+  "version": "1.0.3",
+  "description": "",
+  "main": "main",
+  "type": "module",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad shahroz",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
