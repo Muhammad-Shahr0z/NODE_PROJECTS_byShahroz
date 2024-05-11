@@ -32,8 +32,6 @@ do {
         });
         ask.name = ask.name.toLowerCase().trim();
         let checkStudent = studentsArray.find((e) => e.name === ask.name);
-        console.log(chalk.green.bold("\n\t     <<< NEW STUDENT ADDED >>>"));
-        console.log(chalk.green.bold("***************************************************"));
         if (checkStudent) {
             console.log(chalk.redBright.bold("\n\t   <<< Student Already Exists >>>"));
             console.log(chalk.yellow.bold("\n\tStudent List : \n"));
@@ -43,6 +41,8 @@ do {
             }
         }
         else {
+            console.log(chalk.green.bold("\n\t     <<< NEW STUDENT ADDED >>>"));
+            console.log(chalk.green.bold("***************************************************"));
             let student = new Students(ask.name);
             console.log(chalk.green.bold(`\n\tHello i am `) +
                 chalk.yellowBright(`" ${ask.name.toUpperCase()} "`) +
