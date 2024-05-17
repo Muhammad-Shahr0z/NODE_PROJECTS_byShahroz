@@ -104,7 +104,7 @@ do {
       });
 
       switch (CoursesSelect.ans) {
-        case "TypeScript":
+        case "TypeScript":.
           studentFee = 2000;
           curruntBalance -= studentFee;
           break;
